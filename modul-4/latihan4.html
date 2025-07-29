@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Latihan Pendaftaran</title>
+</head>
+<body>
+    <h2>Daftar Nama Teman</h2>
+    <ul id="daftar-nama">
+        <!-- Konten akan diisi oleh JavaScript -->
+    </ul>
+
+    <script>
+        var matkul = ["Hanif", "Naufal", "Sopyan", "Ari", "Agus"];
+        var daftarElement = document.getElementById("daftar-nama");
+        
+        for (let i = 0; i < matkul.length; i++) {
+            daftarElement.innerHTML += '<li>' + matkul[i] + '</li>';
+        }
+    </script>
+</body>
+</html>
